@@ -1,0 +1,44 @@
+.newTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -27px;
+  /* transform: translateY(-50%); */
+}
+
+.newTask input {
+  width: 736px;
+  height: 54px;
+  color: var(--gray-100);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  
+}
+
+.newTask input:focus {
+  box-shadow: 0 0 0 2px var(--purple);
+}
+
+.newTask button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  width: 90px;
+  height: 52px;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 8px;
+  border: 0;
+  transition: background-color 0.2s;
+}
+
+.newTask button:hover {
+  background-color: var(--blue);
+}
