@@ -15,6 +15,7 @@
 .infoContainer span {
   padding: 2px 8px;
   gap: 10px;
+  font-weight: 700;
 
   width: 25px;
   height: 19px;
@@ -36,6 +37,7 @@
 .tasksContainer {
   margin-top: 1.5rem;
   border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,7 +1,8 @@
-import styles from "./Tasks.module.css";
+import styles from "./TasksList.module.css";
 import ClipboardIcon from "../assets/clipboard.svg";
+import { Task } from "./Task";
 
-export function Tasks() {
+export function TasksList() {
   return (
     <section className={styles.tasks}>
       <div className={styles.infoContainer}>
@@ -15,9 +16,11 @@ export function Tasks() {
         </div>
       </div>
       <div className={styles.tasksContainer}>
-        <img src={ClipboardIcon} />
+        <Task />
+        <Task />
+        {/* <img src={ClipboardIcon} />
         <strong>Você ainda não tem tarefas cadastradas</strong>
-        <span>Crie tarefas e organize seus itens a fazer</span>
+        <span>Crie tarefas e organize seus itens a fazer</span> */}
       </div>
     </section>
   );
