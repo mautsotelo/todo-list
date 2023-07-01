@@ -1,7 +1,6 @@
 import styles from "./NewTask.module.css";
 import Plus from "../assets/plus.svg";
 import { ChangeEvent, FormEvent, useState } from "react";
-import { TaskProps } from "./Task";
 
 interface NewTaskProps {
   onSetNewTask: (text: string) => void;
