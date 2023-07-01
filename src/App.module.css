@@ -46,6 +46,16 @@
   gap: 8px;
 }
 
+.taskEmptyContainer {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 736px;
+  gap: 8px;
+}
+
 .tasksContainer img {
   margin-top: 4rem;
   margin-bottom: 8px;
